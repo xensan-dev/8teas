@@ -1,12 +1,34 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+}
+
 body {
     background-color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar {
-    color: white;
-    background: linear-gradient(116deg, #8093ff, #201628);
+    background-color: grey;
     font-size: x-large;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.navbar-link .active {
+    color: orange;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.about #about {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
